@@ -1,0 +1,100 @@
+DEBUG: first allocation ran
+DEBUG: rowCount = 1
+DEBUG: row allocated
+DEBUG: rowCount = 2
+DEBUG: grid growing...
+DEBUG: rowCount = 2
+DEBUG: elements finished copying
+DEBUG: old grid deletion complete
+DEBUG: rowCount = 2
+DEBUG: row allocated
+DEBUG: rowCount = 3
+DEBUG: row allocated
+DEBUG: rowCount = 4
+DEBUG: grid growing...
+DEBUG: rowCount = 4
+DEBUG: elements finished copying
+DEBUG: old grid deletion complete
+DEBUG: rowCount = 4
+DEBUG: row allocated
+DEBUG: rowCount = 5
+DEBUG: row allocated
+DEBUG: rowCount = 6
+DEBUG: row allocated
+DEBUG: rowCount = 7
+DEBUG: row allocated
+DEBUG: rowCount = 8
+DEBUG: grid growing...
+DEBUG: rowCount = 8
+DEBUG: elements finished copying
+DEBUG: old grid deletion complete
+DEBUG: rowCount = 8
+DEBUG: row allocated
+DEBUG: rowCount = 9
+DEBUG: row allocated
+DEBUG: rowCount = 10
+DEBUG: row allocated
+DEBUG: rowCount = 11
+DEBUG: row allocated
+DEBUG: rowCount = 12
+DEBUG: row allocated
+DEBUG: rowCount = 13
+DEBUG: row allocated
+DEBUG: rowCount = 14
+DEBUG: row allocated
+DEBUG: rowCount = 15
+DEBUG: x recieved, ending grid build
+DEBUG: printGrid called
+||||||||||||||||||||||||||||||||||||
+....................................
+....................................
+....................................
+........................O...........
+......................O.O...........
+............OO......OO............OO
+...........O...O....OO............OO
+OO........O.....O...OO..............
+OO........O...O.OO....O.O...........
+..........O.....O.......O...........
+...........O...O....................
+............OO......................
+....................................
+....................................
+....................................
+||||||||||||||||||||||||||||||||||||
+DEBUG: stepGrid called
+DEBUG: grid[3][23] is ., has neighbors = 3 and is becoming O
+DEBUG: grid[3][24] is O, has neighbors = 1 and is becoming .
+DEBUG: grid[4][21] is ., has neighbors = 3 and is becoming O
+DEBUG: grid[4][22] is O, has neighbors = 1 and is becoming .
+DEBUG: grid[4][23] is ., has neighbors = 3 and is becoming O
+DEBUG: grid[4][24] is O, has neighbors = 1 and is becoming .
+DEBUG: grid[5][13] is O, has neighbors = 1 and is becoming .
+DEBUG: grid[5][21] is O, has neighbors = 4 and is becoming .
+DEBUG: grid[5][22] is ., has neighbors = 3 and is becoming O
+DEBUG: grid[6][12] is ., has neighbors = 3 and is becoming O
+DEBUG: grid[6][15] is O, has neighbors = 1 and is becoming .
+DEBUG: grid[6][19] is ., has neighbors = 3 and is becoming O
+DEBUG: grid[6][20] is O, has neighbors = 5 and is becoming .
+DEBUG: grid[6][21] is O, has neighbors = 5 and is becoming .
+DEBUG: grid[6][22] is ., has neighbors = 3 and is becoming O
+DEBUG: grid[7][11] is ., has neighbors = 3 and is becoming O
+DEBUG: grid[7][17] is ., has neighbors = 3 and is becoming O
+DEBUG: grid[7][21] is O, has neighbors = 4 and is becoming .
+DEBUG: grid[7][22] is ., has neighbors = 3 and is becoming O
+DEBUG: grid[8][9] is ., has neighbors = 3 and is becoming O
+DEBUG: grid[8][11] is ., has neighbors = 3 and is becoming O
+DEBUG: grid[8][14] is O, has neighbors = 0 and is becoming .
+DEBUG: grid[8][21] is ., has neighbors = 3 and is becoming O
+DEBUG: grid[8][22] is O, has neighbors = 1 and is becoming .
+DEBUG: grid[8][23] is ., has neighbors = 3 and is becoming O
+DEBUG: grid[8][24] is O, has neighbors = 1 and is becoming .
+DEBUG: grid[9][11] is ., has neighbors = 3 and is becoming O
+DEBUG: grid[9][17] is ., has neighbors = 3 and is becoming O
+DEBUG: grid[9][23] is ., has neighbors = 3 and is becoming O
+DEBUG: grid[9][24] is O, has neighbors = 1 and is becoming .
+DEBUG: grid[10][12] is ., has neighbors = 3 and is becoming O
+DEBUG: grid[10][15] is O, has neighbors = 1 and is becoming .
+DEBUG: grid[11][13] is O, has neighbors = 1 and is becoming .
+DEBUG: printGrid called
+||||||||||||||||||||||||||||||||||||

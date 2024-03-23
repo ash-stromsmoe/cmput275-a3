@@ -1,0 +1,656 @@
+DEBUG: first allocation ran
+DEBUG: rowCount = 1
+DEBUG: row allocated
+DEBUG: rowCount = 2
+DEBUG: grid growing...
+DEBUG: rowCount = 2
+DEBUG: elements finished copying
+DEBUG: old grid deletion complete
+DEBUG: rowCount = 2
+DEBUG: row allocated
+DEBUG: rowCount = 3
+DEBUG: row allocated
+DEBUG: rowCount = 4
+DEBUG: grid growing...
+DEBUG: rowCount = 4
+DEBUG: elements finished copying
+DEBUG: old grid deletion complete
+DEBUG: rowCount = 4
+DEBUG: row allocated
+DEBUG: rowCount = 5
+DEBUG: row allocated
+DEBUG: rowCount = 6
+DEBUG: row allocated
+DEBUG: rowCount = 7
+DEBUG: row allocated
+DEBUG: rowCount = 8
+DEBUG: grid growing...
+DEBUG: rowCount = 8
+DEBUG: elements finished copying
+DEBUG: old grid deletion complete
+DEBUG: rowCount = 8
+DEBUG: row allocated
+DEBUG: rowCount = 9
+DEBUG: row allocated
+DEBUG: rowCount = 10
+DEBUG: row allocated
+DEBUG: rowCount = 11
+DEBUG: row allocated
+DEBUG: rowCount = 12
+DEBUG: row allocated
+DEBUG: rowCount = 13
+DEBUG: row allocated
+DEBUG: rowCount = 14
+DEBUG: row allocated
+DEBUG: rowCount = 15
+DEBUG: x recieved, ending grid build
+DEBUG: printGrid called
+||||||||||||||||||||||||||||||||||||
+....................................
+....................................
+....................................
+........................O...........
+......................O.O...........
+............OO......OO............OO
+...........O...O....OO............OO
+OO........O.....O...OO..............
+OO........O...O.OO....O.O...........
+..........O.....O.......O...........
+...........O...O....................
+............OO......................
+....................................
+....................................
+....................................
+||||||||||||||||||||||||||||||||||||
+DEBUG: stepGrid called
+DEBUG: newGrid[0][0] is .
+DEBUG: newGrid[0][1] is .
+DEBUG: newGrid[0][2] is .
+DEBUG: newGrid[0][3] is .
+DEBUG: newGrid[0][4] is .
+DEBUG: newGrid[0][5] is .
+DEBUG: newGrid[0][6] is .
+DEBUG: newGrid[0][7] is .
+DEBUG: newGrid[0][8] is .
+DEBUG: newGrid[0][9] is .
+DEBUG: newGrid[0][10] is .
+DEBUG: newGrid[0][11] is .
+DEBUG: newGrid[0][12] is .
+DEBUG: newGrid[0][13] is .
+DEBUG: newGrid[0][14] is .
+DEBUG: newGrid[0][15] is .
+DEBUG: newGrid[0][16] is .
+DEBUG: newGrid[0][17] is .
+DEBUG: newGrid[0][18] is .
+DEBUG: newGrid[0][19] is .
+DEBUG: newGrid[0][20] is .
+DEBUG: newGrid[0][21] is .
+DEBUG: newGrid[0][22] is .
+DEBUG: newGrid[0][23] is .
+DEBUG: newGrid[0][24] is .
+DEBUG: newGrid[0][25] is .
+DEBUG: newGrid[0][26] is .
+DEBUG: newGrid[0][27] is .
+DEBUG: newGrid[0][28] is .
+DEBUG: newGrid[0][29] is .
+DEBUG: newGrid[0][30] is .
+DEBUG: newGrid[0][31] is .
+DEBUG: newGrid[0][32] is .
+DEBUG: newGrid[0][33] is .
+DEBUG: newGrid[0][34] is .
+DEBUG: newGrid[0][35] is .
+DEBUG: newGrid[1][0] is .
+DEBUG: newGrid[1][1] is .
+DEBUG: newGrid[1][2] is .
+DEBUG: newGrid[1][3] is .
+DEBUG: newGrid[1][4] is .
+DEBUG: newGrid[1][5] is .
+DEBUG: newGrid[1][6] is .
+DEBUG: newGrid[1][7] is .
+DEBUG: newGrid[1][8] is .
+DEBUG: newGrid[1][9] is .
+DEBUG: newGrid[1][10] is .
+DEBUG: newGrid[1][11] is .
+DEBUG: newGrid[1][12] is .
+DEBUG: newGrid[1][13] is .
+DEBUG: newGrid[1][14] is .
+DEBUG: newGrid[1][15] is .
+DEBUG: newGrid[1][16] is .
+DEBUG: newGrid[1][17] is .
+DEBUG: newGrid[1][18] is .
+DEBUG: newGrid[1][19] is .
+DEBUG: newGrid[1][20] is .
+DEBUG: newGrid[1][21] is .
+DEBUG: newGrid[1][22] is .
+DEBUG: newGrid[1][23] is .
+DEBUG: newGrid[1][24] is .
+DEBUG: newGrid[1][25] is .
+DEBUG: newGrid[1][26] is .
+DEBUG: newGrid[1][27] is .
+DEBUG: newGrid[1][28] is .
+DEBUG: newGrid[1][29] is .
+DEBUG: newGrid[1][30] is .
+DEBUG: newGrid[1][31] is .
+DEBUG: newGrid[1][32] is .
+DEBUG: newGrid[1][33] is .
+DEBUG: newGrid[1][34] is .
+DEBUG: newGrid[1][35] is .
+DEBUG: newGrid[2][0] is .
+DEBUG: newGrid[2][1] is .
+DEBUG: newGrid[2][2] is .
+DEBUG: newGrid[2][3] is .
+DEBUG: newGrid[2][4] is .
+DEBUG: newGrid[2][5] is .
+DEBUG: newGrid[2][6] is .
+DEBUG: newGrid[2][7] is .
+DEBUG: newGrid[2][8] is .
+DEBUG: newGrid[2][9] is .
+DEBUG: newGrid[2][10] is .
+DEBUG: newGrid[2][11] is .
+DEBUG: newGrid[2][12] is .
+DEBUG: newGrid[2][13] is .
+DEBUG: newGrid[2][14] is .
+DEBUG: newGrid[2][15] is .
+DEBUG: newGrid[2][16] is .
+DEBUG: newGrid[2][17] is .
+DEBUG: newGrid[2][18] is .
+DEBUG: newGrid[2][19] is .
+DEBUG: newGrid[2][20] is .
+DEBUG: newGrid[2][21] is .
+DEBUG: newGrid[2][22] is .
+DEBUG: newGrid[2][23] is .
+DEBUG: newGrid[2][24] is .
+DEBUG: newGrid[2][25] is .
+DEBUG: newGrid[2][26] is .
+DEBUG: newGrid[2][27] is .
+DEBUG: newGrid[2][28] is .
+DEBUG: newGrid[2][29] is .
+DEBUG: newGrid[2][30] is .
+DEBUG: newGrid[2][31] is .
+DEBUG: newGrid[2][32] is .
+DEBUG: newGrid[2][33] is .
+DEBUG: newGrid[2][34] is .
+DEBUG: newGrid[2][35] is .
+DEBUG: newGrid[3][0] is .
+DEBUG: newGrid[3][1] is .
+DEBUG: newGrid[3][2] is .
+DEBUG: newGrid[3][3] is .
+DEBUG: newGrid[3][4] is .
+DEBUG: newGrid[3][5] is .
+DEBUG: newGrid[3][6] is .
+DEBUG: newGrid[3][7] is .
+DEBUG: newGrid[3][8] is .
+DEBUG: newGrid[3][9] is .
+DEBUG: newGrid[3][10] is .
+DEBUG: newGrid[3][11] is .
+DEBUG: newGrid[3][12] is .
+DEBUG: newGrid[3][13] is .
+DEBUG: newGrid[3][14] is .
+DEBUG: newGrid[3][15] is .
+DEBUG: newGrid[3][16] is .
+DEBUG: newGrid[3][17] is .
+DEBUG: newGrid[3][18] is .
+DEBUG: newGrid[3][19] is .
+DEBUG: newGrid[3][20] is .
+DEBUG: newGrid[3][21] is .
+DEBUG: newGrid[3][22] is .
+DEBUG: grid[3][23] is ., has neighbors = 3 and is becoming O
+DEBUG: newGrid[3][23] is O
+DEBUG: grid[3][24] is O, has neighbors = 1 and is becoming .
+DEBUG: newGrid[3][24] is .
+DEBUG: newGrid[3][25] is .
+DEBUG: newGrid[3][26] is .
+DEBUG: newGrid[3][27] is .
+DEBUG: newGrid[3][28] is .
+DEBUG: newGrid[3][29] is .
+DEBUG: newGrid[3][30] is .
+DEBUG: newGrid[3][31] is .
+DEBUG: newGrid[3][32] is .
+DEBUG: newGrid[3][33] is .
+DEBUG: newGrid[3][34] is .
+DEBUG: newGrid[3][35] is .
+DEBUG: newGrid[4][0] is .
+DEBUG: newGrid[4][1] is .
+DEBUG: newGrid[4][2] is .
+DEBUG: newGrid[4][3] is .
+DEBUG: newGrid[4][4] is .
+DEBUG: newGrid[4][5] is .
+DEBUG: newGrid[4][6] is .
+DEBUG: newGrid[4][7] is .
+DEBUG: newGrid[4][8] is .
+DEBUG: newGrid[4][9] is .
+DEBUG: newGrid[4][10] is .
+DEBUG: newGrid[4][11] is .
+DEBUG: newGrid[4][12] is .
+DEBUG: newGrid[4][13] is .
+DEBUG: newGrid[4][14] is .
+DEBUG: newGrid[4][15] is .
+DEBUG: newGrid[4][16] is .
+DEBUG: newGrid[4][17] is .
+DEBUG: newGrid[4][18] is .
+DEBUG: newGrid[4][19] is .
+DEBUG: newGrid[4][20] is .
+DEBUG: grid[4][21] is ., has neighbors = 3 and is becoming O
+DEBUG: newGrid[4][21] is O
+DEBUG: grid[4][22] is O, has neighbors = 1 and is becoming .
+DEBUG: newGrid[4][22] is .
+DEBUG: grid[4][23] is ., has neighbors = 3 and is becoming O
+DEBUG: newGrid[4][23] is O
+DEBUG: grid[4][24] is O, has neighbors = 1 and is becoming .
+DEBUG: newGrid[4][24] is .
+DEBUG: newGrid[4][25] is .
+DEBUG: newGrid[4][26] is .
+DEBUG: newGrid[4][27] is .
+DEBUG: newGrid[4][28] is .
+DEBUG: newGrid[4][29] is .
+DEBUG: newGrid[4][30] is .
+DEBUG: newGrid[4][31] is .
+DEBUG: newGrid[4][32] is .
+DEBUG: newGrid[4][33] is .
+DEBUG: newGrid[4][34] is .
+DEBUG: newGrid[4][35] is .
+DEBUG: newGrid[5][0] is .
+DEBUG: newGrid[5][1] is .
+DEBUG: newGrid[5][2] is .
+DEBUG: newGrid[5][3] is .
+DEBUG: newGrid[5][4] is .
+DEBUG: newGrid[5][5] is .
+DEBUG: newGrid[5][6] is .
+DEBUG: newGrid[5][7] is .
+DEBUG: newGrid[5][8] is .
+DEBUG: newGrid[5][9] is .
+DEBUG: newGrid[5][10] is .
+DEBUG: newGrid[5][11] is .
+DEBUG: newGrid[5][12] is O
+DEBUG: grid[5][13] is O, has neighbors = 1 and is becoming .
+DEBUG: newGrid[5][13] is .
+DEBUG: newGrid[5][14] is .
+DEBUG: newGrid[5][15] is .
+DEBUG: newGrid[5][16] is .
+DEBUG: newGrid[5][17] is .
+DEBUG: newGrid[5][18] is .
+DEBUG: newGrid[5][19] is .
+DEBUG: newGrid[5][20] is O
+DEBUG: grid[5][21] is O, has neighbors = 4 and is becoming .
+DEBUG: newGrid[5][21] is .
+DEBUG: grid[5][22] is ., has neighbors = 3 and is becoming O
+DEBUG: newGrid[5][22] is O
+DEBUG: newGrid[5][23] is .
+DEBUG: newGrid[5][24] is .
+DEBUG: newGrid[5][25] is .
+DEBUG: newGrid[5][26] is .
+DEBUG: newGrid[5][27] is .
+DEBUG: newGrid[5][28] is .
+DEBUG: newGrid[5][29] is .
+DEBUG: newGrid[5][30] is .
+DEBUG: newGrid[5][31] is .
+DEBUG: newGrid[5][32] is .
+DEBUG: newGrid[5][33] is .
+DEBUG: newGrid[5][34] is O
+DEBUG: newGrid[5][35] is O
+DEBUG: newGrid[6][0] is .
+DEBUG: newGrid[6][1] is .
+DEBUG: newGrid[6][2] is .
+DEBUG: newGrid[6][3] is .
+DEBUG: newGrid[6][4] is .
+DEBUG: newGrid[6][5] is .
+DEBUG: newGrid[6][6] is .
+DEBUG: newGrid[6][7] is .
+DEBUG: newGrid[6][8] is .
+DEBUG: newGrid[6][9] is .
+DEBUG: newGrid[6][10] is .
+DEBUG: newGrid[6][11] is O
+DEBUG: grid[6][12] is ., has neighbors = 3 and is becoming O
+DEBUG: newGrid[6][12] is O
+DEBUG: newGrid[6][13] is .
+DEBUG: newGrid[6][14] is .
+DEBUG: grid[6][15] is O, has neighbors = 1 and is becoming .
+DEBUG: newGrid[6][15] is .
+DEBUG: newGrid[6][16] is .
+DEBUG: newGrid[6][17] is .
+DEBUG: newGrid[6][18] is .
+DEBUG: grid[6][19] is ., has neighbors = 3 and is becoming O
+DEBUG: newGrid[6][19] is O
+DEBUG: grid[6][20] is O, has neighbors = 5 and is becoming .
+DEBUG: newGrid[6][20] is .
+DEBUG: grid[6][21] is O, has neighbors = 5 and is becoming .
+DEBUG: newGrid[6][21] is .
+DEBUG: grid[6][22] is ., has neighbors = 3 and is becoming O
+DEBUG: newGrid[6][22] is O
+DEBUG: newGrid[6][23] is .
+DEBUG: newGrid[6][24] is .
+DEBUG: newGrid[6][25] is .
+DEBUG: newGrid[6][26] is .
+DEBUG: newGrid[6][27] is .
+DEBUG: newGrid[6][28] is .
+DEBUG: newGrid[6][29] is .
+DEBUG: newGrid[6][30] is .
+DEBUG: newGrid[6][31] is .
+DEBUG: newGrid[6][32] is .
+DEBUG: newGrid[6][33] is .
+DEBUG: newGrid[6][34] is O
+DEBUG: newGrid[6][35] is O
+DEBUG: newGrid[7][0] is O
+DEBUG: newGrid[7][1] is O
+DEBUG: newGrid[7][2] is .
+DEBUG: newGrid[7][3] is .
+DEBUG: newGrid[7][4] is .
+DEBUG: newGrid[7][5] is .
+DEBUG: newGrid[7][6] is .
+DEBUG: newGrid[7][7] is .
+DEBUG: newGrid[7][8] is .
+DEBUG: newGrid[7][9] is .
+DEBUG: newGrid[7][10] is O
+DEBUG: grid[7][11] is ., has neighbors = 3 and is becoming O
+DEBUG: newGrid[7][11] is O
+DEBUG: newGrid[7][12] is .
+DEBUG: newGrid[7][13] is .
+DEBUG: newGrid[7][14] is .
+DEBUG: newGrid[7][15] is .
+DEBUG: newGrid[7][16] is O
+DEBUG: grid[7][17] is ., has neighbors = 3 and is becoming O
+DEBUG: newGrid[7][17] is O
+DEBUG: newGrid[7][18] is .
+DEBUG: newGrid[7][19] is .
+DEBUG: newGrid[7][20] is O
+DEBUG: grid[7][21] is O, has neighbors = 4 and is becoming .
+DEBUG: newGrid[7][21] is .
+DEBUG: grid[7][22] is ., has neighbors = 3 and is becoming O
+DEBUG: newGrid[7][22] is O
+DEBUG: newGrid[7][23] is .
+DEBUG: newGrid[7][24] is .
+DEBUG: newGrid[7][25] is .
+DEBUG: newGrid[7][26] is .
+DEBUG: newGrid[7][27] is .
+DEBUG: newGrid[7][28] is .
+DEBUG: newGrid[7][29] is .
+DEBUG: newGrid[7][30] is .
+DEBUG: newGrid[7][31] is .
+DEBUG: newGrid[7][32] is .
+DEBUG: newGrid[7][33] is .
+DEBUG: newGrid[7][34] is .
+DEBUG: newGrid[7][35] is .
+DEBUG: newGrid[8][0] is O
+DEBUG: newGrid[8][1] is O
+DEBUG: newGrid[8][2] is .
+DEBUG: newGrid[8][3] is .
+DEBUG: newGrid[8][4] is .
+DEBUG: newGrid[8][5] is .
+DEBUG: newGrid[8][6] is .
+DEBUG: newGrid[8][7] is .
+DEBUG: newGrid[8][8] is .
+DEBUG: grid[8][9] is ., has neighbors = 3 and is becoming O
+DEBUG: newGrid[8][9] is O
+DEBUG: newGrid[8][10] is O
+DEBUG: grid[8][11] is ., has neighbors = 3 and is becoming O
+DEBUG: newGrid[8][11] is O
+DEBUG: newGrid[8][12] is .
+DEBUG: newGrid[8][13] is .
+DEBUG: grid[8][14] is O, has neighbors = 0 and is becoming .
+DEBUG: newGrid[8][14] is .
+DEBUG: newGrid[8][15] is .
+DEBUG: newGrid[8][16] is O
+DEBUG: newGrid[8][17] is O
+DEBUG: newGrid[8][18] is .
+DEBUG: newGrid[8][19] is .
+DEBUG: newGrid[8][20] is .
+DEBUG: grid[8][21] is ., has neighbors = 3 and is becoming O
+DEBUG: newGrid[8][21] is O
+DEBUG: grid[8][22] is O, has neighbors = 1 and is becoming .
+DEBUG: newGrid[8][22] is .
+DEBUG: grid[8][23] is ., has neighbors = 3 and is becoming O
+DEBUG: newGrid[8][23] is O
+DEBUG: grid[8][24] is O, has neighbors = 1 and is becoming .
+DEBUG: newGrid[8][24] is .
+DEBUG: newGrid[8][25] is .
+DEBUG: newGrid[8][26] is .
+DEBUG: newGrid[8][27] is .
+DEBUG: newGrid[8][28] is .
+DEBUG: newGrid[8][29] is .
+DEBUG: newGrid[8][30] is .
+DEBUG: newGrid[8][31] is .
+DEBUG: newGrid[8][32] is .
+DEBUG: newGrid[8][33] is .
+DEBUG: newGrid[8][34] is .
+DEBUG: newGrid[8][35] is .
+DEBUG: newGrid[9][0] is .
+DEBUG: newGrid[9][1] is .
+DEBUG: newGrid[9][2] is .
+DEBUG: newGrid[9][3] is .
+DEBUG: newGrid[9][4] is .
+DEBUG: newGrid[9][5] is .
+DEBUG: newGrid[9][6] is .
+DEBUG: newGrid[9][7] is .
+DEBUG: newGrid[9][8] is .
+DEBUG: newGrid[9][9] is .
+DEBUG: newGrid[9][10] is O
+DEBUG: grid[9][11] is ., has neighbors = 3 and is becoming O
+DEBUG: newGrid[9][11] is O
+DEBUG: newGrid[9][12] is .
+DEBUG: newGrid[9][13] is .
+DEBUG: newGrid[9][14] is .
+DEBUG: newGrid[9][15] is .
+DEBUG: newGrid[9][16] is O
+DEBUG: grid[9][17] is ., has neighbors = 3 and is becoming O
+DEBUG: newGrid[9][17] is O
+DEBUG: newGrid[9][18] is .
+DEBUG: newGrid[9][19] is .
+DEBUG: newGrid[9][20] is .
+DEBUG: newGrid[9][21] is .
+DEBUG: newGrid[9][22] is .
+DEBUG: grid[9][23] is ., has neighbors = 3 and is becoming O
+DEBUG: newGrid[9][23] is O
+DEBUG: grid[9][24] is O, has neighbors = 1 and is becoming .
+DEBUG: newGrid[9][24] is .
+DEBUG: newGrid[9][25] is .
+DEBUG: newGrid[9][26] is .
+DEBUG: newGrid[9][27] is .
+DEBUG: newGrid[9][28] is .
+DEBUG: newGrid[9][29] is .
+DEBUG: newGrid[9][30] is .
+DEBUG: newGrid[9][31] is .
+DEBUG: newGrid[9][32] is .
+DEBUG: newGrid[9][33] is .
+DEBUG: newGrid[9][34] is .
+DEBUG: newGrid[9][35] is .
+DEBUG: newGrid[10][0] is .
+DEBUG: newGrid[10][1] is .
+DEBUG: newGrid[10][2] is .
+DEBUG: newGrid[10][3] is .
+DEBUG: newGrid[10][4] is .
+DEBUG: newGrid[10][5] is .
+DEBUG: newGrid[10][6] is .
+DEBUG: newGrid[10][7] is .
+DEBUG: newGrid[10][8] is .
+DEBUG: newGrid[10][9] is .
+DEBUG: newGrid[10][10] is .
+DEBUG: newGrid[10][11] is O
+DEBUG: grid[10][12] is ., has neighbors = 3 and is becoming O
+DEBUG: newGrid[10][12] is O
+DEBUG: newGrid[10][13] is .
+DEBUG: newGrid[10][14] is .
+DEBUG: grid[10][15] is O, has neighbors = 1 and is becoming .
+DEBUG: newGrid[10][15] is .
+DEBUG: newGrid[10][16] is .
+DEBUG: newGrid[10][17] is .
+DEBUG: newGrid[10][18] is .
+DEBUG: newGrid[10][19] is .
+DEBUG: newGrid[10][20] is .
+DEBUG: newGrid[10][21] is .
+DEBUG: newGrid[10][22] is .
+DEBUG: newGrid[10][23] is .
+DEBUG: newGrid[10][24] is .
+DEBUG: newGrid[10][25] is .
+DEBUG: newGrid[10][26] is .
+DEBUG: newGrid[10][27] is .
+DEBUG: newGrid[10][28] is .
+DEBUG: newGrid[10][29] is .
+DEBUG: newGrid[10][30] is .
+DEBUG: newGrid[10][31] is .
+DEBUG: newGrid[10][32] is .
+DEBUG: newGrid[10][33] is .
+DEBUG: newGrid[10][34] is .
+DEBUG: newGrid[10][35] is .
+DEBUG: newGrid[11][0] is .
+DEBUG: newGrid[11][1] is .
+DEBUG: newGrid[11][2] is .
+DEBUG: newGrid[11][3] is .
+DEBUG: newGrid[11][4] is .
+DEBUG: newGrid[11][5] is .
+DEBUG: newGrid[11][6] is .
+DEBUG: newGrid[11][7] is .
+DEBUG: newGrid[11][8] is .
+DEBUG: newGrid[11][9] is .
+DEBUG: newGrid[11][10] is .
+DEBUG: newGrid[11][11] is .
+DEBUG: newGrid[11][12] is O
+DEBUG: grid[11][13] is O, has neighbors = 1 and is becoming .
+DEBUG: newGrid[11][13] is .
+DEBUG: newGrid[11][14] is .
+DEBUG: newGrid[11][15] is .
+DEBUG: newGrid[11][16] is .
+DEBUG: newGrid[11][17] is .
+DEBUG: newGrid[11][18] is .
+DEBUG: newGrid[11][19] is .
+DEBUG: newGrid[11][20] is .
+DEBUG: newGrid[11][21] is .
+DEBUG: newGrid[11][22] is .
+DEBUG: newGrid[11][23] is .
+DEBUG: newGrid[11][24] is .
+DEBUG: newGrid[11][25] is .
+DEBUG: newGrid[11][26] is .
+DEBUG: newGrid[11][27] is .
+DEBUG: newGrid[11][28] is .
+DEBUG: newGrid[11][29] is .
+DEBUG: newGrid[11][30] is .
+DEBUG: newGrid[11][31] is .
+DEBUG: newGrid[11][32] is .
+DEBUG: newGrid[11][33] is .
+DEBUG: newGrid[11][34] is .
+DEBUG: newGrid[11][35] is .
+DEBUG: newGrid[12][0] is .
+DEBUG: newGrid[12][1] is .
+DEBUG: newGrid[12][2] is .
+DEBUG: newGrid[12][3] is .
+DEBUG: newGrid[12][4] is .
+DEBUG: newGrid[12][5] is .
+DEBUG: newGrid[12][6] is .
+DEBUG: newGrid[12][7] is .
+DEBUG: newGrid[12][8] is .
+DEBUG: newGrid[12][9] is .
+DEBUG: newGrid[12][10] is .
+DEBUG: newGrid[12][11] is .
+DEBUG: newGrid[12][12] is .
+DEBUG: newGrid[12][13] is .
+DEBUG: newGrid[12][14] is .
+DEBUG: newGrid[12][15] is .
+DEBUG: newGrid[12][16] is .
+DEBUG: newGrid[12][17] is .
+DEBUG: newGrid[12][18] is .
+DEBUG: newGrid[12][19] is .
+DEBUG: newGrid[12][20] is .
+DEBUG: newGrid[12][21] is .
+DEBUG: newGrid[12][22] is .
+DEBUG: newGrid[12][23] is .
+DEBUG: newGrid[12][24] is .
+DEBUG: newGrid[12][25] is .
+DEBUG: newGrid[12][26] is .
+DEBUG: newGrid[12][27] is .
+DEBUG: newGrid[12][28] is .
+DEBUG: newGrid[12][29] is .
+DEBUG: newGrid[12][30] is .
+DEBUG: newGrid[12][31] is .
+DEBUG: newGrid[12][32] is .
+DEBUG: newGrid[12][33] is .
+DEBUG: newGrid[12][34] is .
+DEBUG: newGrid[12][35] is .
+DEBUG: newGrid[13][0] is .
+DEBUG: newGrid[13][1] is .
+DEBUG: newGrid[13][2] is .
+DEBUG: newGrid[13][3] is .
+DEBUG: newGrid[13][4] is .
+DEBUG: newGrid[13][5] is .
+DEBUG: newGrid[13][6] is .
+DEBUG: newGrid[13][7] is .
+DEBUG: newGrid[13][8] is .
+DEBUG: newGrid[13][9] is .
+DEBUG: newGrid[13][10] is .
+DEBUG: newGrid[13][11] is .
+DEBUG: newGrid[13][12] is .
+DEBUG: newGrid[13][13] is .
+DEBUG: newGrid[13][14] is .
+DEBUG: newGrid[13][15] is .
+DEBUG: newGrid[13][16] is .
+DEBUG: newGrid[13][17] is .
+DEBUG: newGrid[13][18] is .
+DEBUG: newGrid[13][19] is .
+DEBUG: newGrid[13][20] is .
+DEBUG: newGrid[13][21] is .
+DEBUG: newGrid[13][22] is .
+DEBUG: newGrid[13][23] is .
+DEBUG: newGrid[13][24] is .
+DEBUG: newGrid[13][25] is .
+DEBUG: newGrid[13][26] is .
+DEBUG: newGrid[13][27] is .
+DEBUG: newGrid[13][28] is .
+DEBUG: newGrid[13][29] is .
+DEBUG: newGrid[13][30] is .
+DEBUG: newGrid[13][31] is .
+DEBUG: newGrid[13][32] is .
+DEBUG: newGrid[13][33] is .
+DEBUG: newGrid[13][34] is .
+DEBUG: newGrid[13][35] is .
+DEBUG: newGrid[14][0] is .
+DEBUG: newGrid[14][1] is .
+DEBUG: newGrid[14][2] is .
+DEBUG: newGrid[14][3] is .
+DEBUG: newGrid[14][4] is .
+DEBUG: newGrid[14][5] is .
+DEBUG: newGrid[14][6] is .
+DEBUG: newGrid[14][7] is .
+DEBUG: newGrid[14][8] is .
+DEBUG: newGrid[14][9] is .
+DEBUG: newGrid[14][10] is .
+DEBUG: newGrid[14][11] is .
+DEBUG: newGrid[14][12] is .
+DEBUG: newGrid[14][13] is .
+DEBUG: newGrid[14][14] is .
+DEBUG: newGrid[14][15] is .
+DEBUG: newGrid[14][16] is .
+DEBUG: newGrid[14][17] is .
+DEBUG: newGrid[14][18] is .
+DEBUG: newGrid[14][19] is .
+DEBUG: newGrid[14][20] is .
+DEBUG: newGrid[14][21] is .
+DEBUG: newGrid[14][22] is .
+DEBUG: newGrid[14][23] is .
+DEBUG: newGrid[14][24] is .
+DEBUG: newGrid[14][25] is .
+DEBUG: newGrid[14][26] is .
+DEBUG: newGrid[14][27] is .
+DEBUG: newGrid[14][28] is .
+DEBUG: newGrid[14][29] is .
+DEBUG: newGrid[14][30] is .
+DEBUG: newGrid[14][31] is .
+DEBUG: newGrid[14][32] is .
+DEBUG: newGrid[14][33] is .
+DEBUG: newGrid[14][34] is .
+DEBUG: newGrid[14][35] is .
+DEBUG: printGrid called
+||||||||||||||||||||||||||||||||||||
+....................................
+....................................
+....................................
+........................O...........
+......................O.O...........
+............OO......OO............OO
+...........O...O....OO............OO
+OO........O.....O...OO..............
+OO........O...O.OO....O.O...........
+..........O.....O.......O...........
+...........O...O....................
+............OO......................
+....................................
+....................................
+....................................
+||||||||||||||||||||||||||||||||||||
