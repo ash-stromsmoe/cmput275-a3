@@ -4,23 +4,34 @@
 
 // Predefined constant for pi, to be used if/when converting degrees
 // to radians.
-#define PI 3.14159265
+#define PI  3.14159265
 
 // Forward declation of Force. Needed in case any of Point references
 // the existence of type Force.
 class Force;
 
 class Point {
-    // Private fields and helpers here.
+  int x, y;
+  Point(float init_x, float init_y);
   public:
-    // Required public interface here.
-
+  Point();
+  Point &operator+(Force &);
+  int quadrant();
+  friend std::istream &operator>>(std::istream &, Point &);
+  friend std::ostream &operator<<(std::ostream &, const Point &);
+  
 };
 
 class Force {
-    // Private fields and helpers here.
+  Force(float init_angle, float init_magnitude);
   public:
-    // Required public interface here.
+  float angle, magnitude;
+  Force();
+  Force &operator*(int scalar);
+  friend std::istream &operator>>(std::istream &, Force &);
+  friend std::ostream &operator<<(std::ostream &, const Force &);
+  
+
 };
 
 #endif

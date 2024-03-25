@@ -3,12 +3,14 @@
 using namespace std;
 
 
-#define DEBUG (1)
+#define DEBUG (0)
 
 
-void printGrid(char **grid, int rowCount, int colCount) {
+void printGrid(char **grid, const int rowCount, const int colCount) {
     #if DEBUG == 1
     cout << "DEBUG: printGrid called" << endl;
+    cout << "DEBUG: rowCount = " << rowCount << endl;
+    cout << "DEBUG: colCount = " << colCount << endl;
     #endif
     for(int i = 0; i < colCount; ++i) cout << "|";
     cout << endl;
@@ -22,9 +24,11 @@ void printGrid(char **grid, int rowCount, int colCount) {
     cout << endl;
 }
 
-void stepGrid(char **grid, int rowCount, int colCount) {
+void stepGrid(char **grid, const int rowCount,const int colCount) {
     #if DEBUG == 1
     cout << "DEBUG: stepGrid called" << endl;
+    cout << "DEBUG: rowCount = " << rowCount << endl;
+    cout << "DEBUG: colCount = " << colCount << endl;
     #endif
 
     int neighbors = 0;
@@ -56,17 +60,21 @@ void stepGrid(char **grid, int rowCount, int colCount) {
             // count cells
             // first, determine the bounds to check for neighbors in (don't look out of bounds)
             // top row
-            if(i == 0) vMin = 0;
-            else vMin = -1;
+            if(i == 0) {
+                vMin = 0;
+            } else vMin = -1;
             // bottom row
-            if(i == rowCount-1) vMax = 0;
-            else vMax = 1;
+            if(i == rowCount-1) {
+                vMax = 0;
+            } else vMax = 1;
             // leftmost column
-            if(j == 0) hMin = 0;
-            else hMin = -1;
+            if(j == 0) {
+                hMin = 0;
+            } else hMin = -1;
             // rightmost column
-            if(j == colCount-1) hMax = 0;
-            else hMax = 1;
+            if(j == colCount-1) {
+                hMax = 0;
+            } else hMax = 1;
 
             // count neighbors
             // note: if cell is live, it counts itself
@@ -96,20 +104,22 @@ void stepGrid(char **grid, int rowCount, int colCount) {
             newGrid[i][j] = newCell;
             #if DEBUG == 1
             if(grid[i][j] != newCell) cout << "DEBUG: grid[" << i << "][" << j << "] is " << grid[i][j] << ", has neighbors = " << neighbors << " and is becoming " << newCell << endl;  
-            cout << "DEBUG: newGrid[" << i << "][" << j << "] is " << newGrid[i][j] << endl;
+            //cout << "DEBUG: newGrid[" << i << "][" << j << "] is " << newGrid[i][j] << endl;
             #endif
             
         }
     }
-
-    // Free memory, make grid = newGrid
-    /*
+    // Copy elements of newGrid to grid
     for(int i = 0; i < rowCount; ++i) {
-        delete[] grid[i]; 
+        for(int j = 0; j < colCount; ++j) {
+            grid[i][j] = newGrid[i][j];
+        }
     }
-    delete[] grid;
-    */
-    grid = newGrid;
+    // Delete newGrid
+    for(int i = 0; i < rowCount; ++i) {
+        delete[] newGrid[i]; 
+    }
+    delete[] newGrid;
 }
 
 int main() {
@@ -188,8 +198,12 @@ int main() {
         int c = 0;
         while(input[c] != '\0') c++;
         for(int i = 0; i < c; i++) {
-            if(input[i] == 'p') printGrid(grid, rowCount, colCount);
-            if(input[i] == 's') stepGrid(grid, rowCount, colCount);
+            if(input[i] == 'p') {
+                printGrid(grid, rowCount, colCount);
+            }
+            if(input[i] == 's') {
+                stepGrid(grid, rowCount, colCount);
+            }
         }
     }
     return 0;
